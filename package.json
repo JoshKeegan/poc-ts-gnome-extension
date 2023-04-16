@@ -1,0 +1,14 @@
+{
+  "name": "poc-ts-gnome-extension",
+  "version": "1.0.0",
+  "main": "extension.ts",
+  "author": "Josh Keegan",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
