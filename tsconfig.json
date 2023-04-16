@@ -9,25 +9,16 @@
                 "gi-types/*"
             ]
         },
-        "target": "ES2018",
+        "target": "ES2015",
         "baseUrl": ".",
         "moduleResolution": "node",
         "module": "ES2020",
         "outDir": "build",
         "lib": [
             "es2017"
-        ],
-        "typeRoots": [
-            "types",
-            "gi-types"
         ]
     },
     "include": [
-        "gi-types/gi.d.ts",
-        "types/ambient.d.ts",
         "src/*"
-    ],
-    "exclude": [
-        "node_modules/@types/**"
     ]
 }

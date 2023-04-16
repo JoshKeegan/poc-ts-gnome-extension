@@ -6,6 +6,7 @@ clean:
 
 build:
 	yarn build
+	./gjs.sh
 	cp metadata.json build/
 
 .PHONY: install

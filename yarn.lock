@@ -2,6 +2,196 @@
 # yarn lockfile v1
 
 
+"@gi-types/atk1@^2.36.0":
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/@gi-types/atk1/-/atk1-2.36.0.tgz#24bbd25e11a8c7465349af040350f86af46c3ecb"
+  integrity sha512-lCuoaJwqFDV+V+sf4mOcciLCJitiUsGNg/W2Q5Y+21FycPZqlsjgXb0pimo7gLdq11d1lEfHffh3AkY80+7SHw==
+  dependencies:
+    "@gi-types/glib2" "^2.68.0"
+    "@gi-types/gobject2" "^2.68.0"
+
+"@gi-types/cairo1@^1.0.0", "@gi-types/cairo1@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/cairo1/-/cairo1-1.0.1.tgz#d061952c42cebd7a9377e7e7a49e85eea9c8a7b1"
+  integrity sha512-Q92XKfTWVmtF3LBX9Kx7TkdRjeaZeb8llC01p9WgbkVfFX1d2VO4LrqYgeNkThwmJpscHzDzGF0uv5njsfd4xg==
+  dependencies:
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/clutter10@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/clutter10/-/clutter10-10.0.1.tgz#331ffe8c78bafa28fd937b9afe7e5add6c087888"
+  integrity sha512-RID6cMWeIFP4ikkd3GLymEG/KbWnQYBz3DAte+HjWOxbP/yAKlfDWrz3CwVM0NO+pIbD7zeCgdFbcCaXC9u2Ww==
+  dependencies:
+    "@gi-types/atk1" "^2.36.0"
+    "@gi-types/cairo1" "^1.0.1"
+    "@gi-types/cogl10" "^10.0.1"
+    "@gi-types/gio2" "^2.72.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+    "@gi-types/graphene1" "^1.0.1"
+    "@gi-types/json1" "^1.6.1"
+    "@gi-types/pango1" "^1.50.1"
+
+"@gi-types/cogl10@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/cogl10/-/cogl10-10.0.1.tgz#a7a3da149ff83a58d237ab037e33ef28fccee7a0"
+  integrity sha512-n4Kf019kVog/X+YCjvIBXKgOv5zmJWaWHjpPViKs4ydH5X/LKqM23EpYGvyvDgFOFV4y/cv9i6/RMcb5rgCeHA==
+  dependencies:
+    "@gi-types/cairo1" "^1.0.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+    "@gi-types/graphene1" "^1.0.1"
+
+"@gi-types/freetype22@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/freetype22/-/freetype22-2.0.1.tgz#706f61c7e425c4ada3765b0d796e3336bc3e5f6a"
+  integrity sha512-3p4XvTSn6o1UCGpla/1KhvMIwZkgIyBtGErbnXuAvGzULtlseQjX2IljY4fi2FKtFd9ngRtIIF71inRPUIj+1w==
+  dependencies:
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/gdesktopenums3@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gdesktopenums3/-/gdesktopenums3-3.0.1.tgz#86bdacca733c99353137675a5f2da6961611c69a"
+  integrity sha512-qIzerTlLUhoMXS6TCV0vxNaYFBs1Oy4BY84srjv3NYsCG2auWGVNRVS2qn1r9ztRpWwAzEYO4KASitVi5zUoGA==
+  dependencies:
+    "@gi-types/gobject2" "^2.68.0"
+
+"@gi-types/gdk3@^3.24.1":
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gdk3/-/gdk3-3.24.1.tgz#033f4d765878d28a566c825fb2ad384aa2f3b88e"
+  integrity sha512-0RLHMYjpuWSgnOgC83ThEPTQREnRR3wuxuYj6zfWSwmSJarLpSM0hCo8Xszew2k7RW/tybUqEfPdH4Bw7dnbJA==
+  dependencies:
+    "@gi-types/cairo1" "^1.0.0"
+    "@gi-types/gdkpixbuf2" "^2.0.0"
+    "@gi-types/gio2" "^2.68.0"
+    "@gi-types/glib2" "^2.68.0"
+    "@gi-types/gobject2" "^2.68.0"
+    "@gi-types/pango1" "^1.0.0"
+
+"@gi-types/gdkpixbuf2@^2.0.0":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@gi-types/gdkpixbuf2/-/gdkpixbuf2-2.0.2.tgz#adbd80bfca359117c986b5abfc5818862517f6bc"
+  integrity sha512-vwopihyKOjJszDPvMj+T2XO6hMWYRmhW/uSrfCeCudMhzmJBrpIzmRZTYfeTgMMDU8cuWydCjacbiD7hSio0tw==
+  dependencies:
+    "@gi-types/gio2" "^2.72.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gmodule2" "^2.0.1"
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/gio2@^2.68.0", "@gi-types/gio2@^2.72.1":
+  version "2.72.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gio2/-/gio2-2.72.1.tgz#15ee7770655c578f574f5fe343a3d7fdf3062798"
+  integrity sha512-V3ASxEbq4xBdw/rcROEbNrTqtFtWfwFOcOsXO+48JPIEqZRTJZcf9LX/ATxi9hxaZXogpmOBMsxuyNsd5ZQXyA==
+  dependencies:
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/glib2@^2.68.0", "@gi-types/glib2@^2.72.1":
+  version "2.72.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/glib2/-/glib2-2.72.1.tgz#9cdfb4d05bf5f44a224e96d07ec1ebe3f12f32e7"
+  integrity sha512-Mfhs1UGV1a0GOLolqA1xC2oVV5cILbJjGh/M9Db3irqWNIWGM0LUFkoG2nRMBpJ0enhIYbqY9CCpGlMpAnyxOw==
+  dependencies:
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/gmodule2@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gmodule2/-/gmodule2-2.0.1.tgz#dd396c8563bd416c051053cb313077179723137c"
+  integrity sha512-thIYqYL3ALKBLR/zpjrlXro1m9UTv6eAYyuIdpPtmQvlaggBLoUakYl6mzNmqcb22OIlq/8jJrVx+cjFxdPd/A==
+  dependencies:
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/gobject2@^2.68.0", "@gi-types/gobject2@^2.72.1":
+  version "2.72.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gobject2/-/gobject2-2.72.1.tgz#be5e8f8b0d220fcd93d386598907b2efc5be8d3e"
+  integrity sha512-1UUD2zzwRo7vJLu0J62L1cgB39wjYNs1+6qS0UBhdLhzkOWK+CnVII9CNh21Z4YBs0Oa2d5REeGUiZO4d7a6Zw==
+  dependencies:
+    "@gi-types/glib2" "^2.72.1"
+
+"@gi-types/graphene1@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/graphene1/-/graphene1-1.0.1.tgz#0d85568b162d03a0b365b1d3206b3a03c72cbd42"
+  integrity sha512-O5cJG/eIi912eF1zcaXrSur25LgMJDU+VhFDnYuO4Latj32eypFJf5Sw3KOZvN2EoctIBxjutbXLOxYYKMBhHA==
+  dependencies:
+    "@gi-types/gobject2" "^2.68.0"
+
+"@gi-types/gtk3@^3.24.1":
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/gtk3/-/gtk3-3.24.1.tgz#dff1ca2220fa875c84c75c6e69691809d8716d91"
+  integrity sha512-KW+ilICTJxl2OrtPbKRMEzA4+QTziZCD33O4ipIqWUjy7YJHaGgBUCNtzzBL9VfunGBBVfClIc4cVcLhV/pbBA==
+  dependencies:
+    "@gi-types/atk1" "^2.36.0"
+    "@gi-types/cairo1" "^1.0.0"
+    "@gi-types/gdk3" "^3.24.1"
+    "@gi-types/gdkpixbuf2" "^2.0.0"
+    "@gi-types/gio2" "^2.68.0"
+    "@gi-types/glib2" "^2.68.0"
+    "@gi-types/gobject2" "^2.68.0"
+    "@gi-types/pango1" "^1.0.0"
+    "@gi-types/xlib2" "^2.0.0"
+
+"@gi-types/harfbuzz2@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@gi-types/harfbuzz2/-/harfbuzz2-4.4.2.tgz#b651cc6777caea6044b4da1b26b9aeff087717c4"
+  integrity sha512-jsntc6SthoOdw4VSetTOKFI0BM1ccDISP1JQhnL5NETrVuYGnNAwRZ2oDIujuG0M70bHDv/MWKiZnmJxXNPrKw==
+  dependencies:
+    "@gi-types/freetype22" "^2.0.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/json1@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/json1/-/json1-1.6.1.tgz#e77b32c75304dfcdd90e8b533c78483e01bbf818"
+  integrity sha512-6DpNf3PTYYKbL96U76R/mWZuAXv32cI0ZDalyKAciKeh9pczHjlnNdjq8h6lDKJc5vKxviHW9TsOdtB3NaXuqQ==
+  dependencies:
+    "@gi-types/gio2" "^2.72.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/meta10@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/meta10/-/meta10-10.0.1.tgz#b705edb8960150a2b1050ae00ea98ef0cf483016"
+  integrity sha512-VmYij7FhqC5CtYrWcheErwiVwmiPOJ55Ct71Q7daZPAQi358hUYsya0WYBPAXGciIMdd67UjorZX6DYfAAksRw==
+  dependencies:
+    "@gi-types/atk1" "^2.36.0"
+    "@gi-types/cairo1" "^1.0.1"
+    "@gi-types/clutter10" "^10.0.1"
+    "@gi-types/cogl10" "^10.0.1"
+    "@gi-types/gdesktopenums3" "^3.0.1"
+    "@gi-types/gio2" "^2.72.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+    "@gi-types/graphene1" "^1.0.1"
+    "@gi-types/gtk3" "^3.24.1"
+    "@gi-types/json1" "^1.6.1"
+    "@gi-types/pango1" "^1.50.1"
+    "@gi-types/xfixes4" "^4.0.1"
+    "@gi-types/xlib2" "^2.0.1"
+
+"@gi-types/pango1@^1.0.0", "@gi-types/pango1@^1.50.1":
+  version "1.50.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/pango1/-/pango1-1.50.1.tgz#d5632c8d3f5ba50c1a3bc5ca1da0a90967e84b81"
+  integrity sha512-SdpoZ5Fcz7Zo8Tal5Ap4Z/4SMqpo/PspORIadxmNZ3kafFOwK7TPvdWiUIBgua+i3uWiLnreKCGD/6rLJLbw3g==
+  dependencies:
+    "@gi-types/gio2" "^2.72.1"
+    "@gi-types/glib2" "^2.72.1"
+    "@gi-types/gobject2" "^2.72.1"
+    "@gi-types/harfbuzz2" "^4.4.2"
+
+"@gi-types/xfixes4@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/xfixes4/-/xfixes4-4.0.1.tgz#f998125ac21bf956baec907c74445bdff40dc21f"
+  integrity sha512-2B9XqWAE7JpdZwuUDZ+YrwTu45nuKU05RH8qXv9ld3ypmdVRVx5J8qb+VVaI3z6H6EOPfz0lYsxRmvAT8GLZsA==
+  dependencies:
+    "@gi-types/gobject2" "^2.72.1"
+
+"@gi-types/xlib2@^2.0.0", "@gi-types/xlib2@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@gi-types/xlib2/-/xlib2-2.0.1.tgz#b4a3e7a5afe09a0a54f88cee61441ea826c4a219"
+  integrity sha512-AouZupNa8roCOwKbyGuVuOmt7n8YYBprH60q5Ggu9vGVY+AhpTjEbeJBiLkHW74T8587Z3AilRo7cBWnXPM56A==
+  dependencies:
+    "@gi-types/gobject2" "^2.72.1"
+
 typescript@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"

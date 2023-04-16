@@ -1,11 +1,21 @@
-function enable() {
-    log("enable poc-ts-gnome-extension");
-}
+import * as GLib from '@gi-types/glib2';
 
-function disable() {
-    log("disable poc-ts-gnome-extension");
+class Extension {
+    constructor() {
+        log("init poc-ts-gnome-extension");
+    }
+
+    enable() {
+        log("enable poc-ts-gnome-extension");
+        log(`conf dir: ${GLib.get_user_config_dir()}`);
+    }
+    
+    disable() {
+        log("disable poc-ts-gnome-extension");
+    }
+    
 }
 
 function init() {
-    log("init poc-ts-gnome-extension");
+    return new Extension();
 }

@@ -9,6 +9,9 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "@gi-types/gio2": "^2.72.1",
+    "@gi-types/glib2": "^2.72.1",
+    "@gi-types/meta10": "^10.0.1",
     "typescript": "^5.0.4"
   }
 }
