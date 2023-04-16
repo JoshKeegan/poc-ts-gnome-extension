@@ -1,8 +1,0 @@
-{
-    "name": "PoC: TypeScript",
-    "description": "Bare bones extension proving typescript",
-    "uuid": "poc-ts@joshkeegan.co.uk",
-    "shell-version": [
-        "43"
-    ]
-}
