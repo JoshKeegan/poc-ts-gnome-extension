@@ -2,9 +2,7 @@
 // https://stackoverflow.com/a/51114250
 
 declare const global: Global,
-    imports: any,
-    log: any,
-    _: (arg: string) => string;
+    log: any
 
 interface Global {
     get_current_time(): number;
