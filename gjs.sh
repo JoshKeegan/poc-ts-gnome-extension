@@ -13,7 +13,11 @@ for src in $(find build -name '*.js'); do
         "$src"
     sed -i -E \
         -e "s/import \* as (\w+) from '@gi-types\/\w+'/const { \1 } = imports.gi/g" \
+        -e "s/import \{ (\w+) \} from '.\/(\w+)'/const \1 = Me.imports.\2.\1/g" \
         -e 's/export class (\w+)/var \1 = class \1/g' \
-        -e "s/import \* as (\w+) from '(\w+)'/const \1 = Me.imports.\2/g" \
         "$src"
+    
+    echo "const ExtensionUtils = imports.misc.extensionUtils;
+const Me = ExtensionUtils.getCurrentExtension();
+$(cat $src)" > "$src"
 done

@@ -1,22 +1,12 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true,
         "strict": true,
-        "paths": {
-            "*": [
-                "*",
-                "types/*",
-                "gi-types/*"
-            ]
-        },
         "target": "ES2015",
-        "baseUrl": ".",
-        "moduleResolution": "node",
-        "module": "ES2020",
         "outDir": "build",
         "lib": [
-            "es2017"
-        ]
+            "es2015"
+        ],
+        "moduleResolution": "node",
     },
     "include": [
         "src/*"

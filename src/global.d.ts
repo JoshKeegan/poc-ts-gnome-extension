@@ -1,3 +1,6 @@
+// Don't use imports here, do them inline via import()
+// https://stackoverflow.com/a/51114250
+
 declare const global: Global,
     imports: any,
     log: any,
@@ -10,7 +13,7 @@ interface Global {
     log(msg: string): void;
     logError(error: any): void
 
-    //display: Meta.Display;
+    display: import('@gi-types/meta10').Display;
     run_at_leisure(func: () => void): void;
     session_mode: string;
     //stage: Clutter.Actor;
