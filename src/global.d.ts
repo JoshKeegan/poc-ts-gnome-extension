@@ -11,7 +11,7 @@ interface Global {
     log(msg: string): void;
     logError(error: any): void
 
-    display: import('@gi-types/meta10').Display;
+    display: import('@girs/meta-11').Meta.Display;
     run_at_leisure(func: () => void): void;
     session_mode: string;
     //stage: Clutter.Actor;

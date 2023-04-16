@@ -2,195 +2,255 @@
 # yarn lockfile v1
 
 
-"@gi-types/atk1@^2.36.0":
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/@gi-types/atk1/-/atk1-2.36.0.tgz#24bbd25e11a8c7465349af040350f86af46c3ecb"
-  integrity sha512-lCuoaJwqFDV+V+sf4mOcciLCJitiUsGNg/W2Q5Y+21FycPZqlsjgXb0pimo7gLdq11d1lEfHffh3AkY80+7SHw==
+"@girs/atk-1.0@^2.45.1-3.0.0-beta.12":
+  version "2.45.1-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/atk-1.0/-/atk-1.0-2.45.1-3.0.0-beta.12.tgz#a94ec936103f582946e5fd06d4a3bf7e42fcf368"
+  integrity sha512-pm1fQo10jfONBU+ROJ+GyhDgBdpBqgoA7jgBvYTQexFU0dldndxJEqTt7pSsNVj94alPa7X/YeWFQlkkG+tb+A==
   dependencies:
-    "@gi-types/glib2" "^2.68.0"
-    "@gi-types/gobject2" "^2.68.0"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/cairo1@^1.0.0", "@gi-types/cairo1@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/cairo1/-/cairo1-1.0.1.tgz#d061952c42cebd7a9377e7e7a49e85eea9c8a7b1"
-  integrity sha512-Q92XKfTWVmtF3LBX9Kx7TkdRjeaZeb8llC01p9WgbkVfFX1d2VO4LrqYgeNkThwmJpscHzDzGF0uv5njsfd4xg==
+"@girs/cairo-1.0@^1.0.0-3.0.0-beta.12":
+  version "1.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/cairo-1.0/-/cairo-1.0-1.0.0-3.0.0-beta.12.tgz#07502d164b4be0d4fdd92fc0afe686fc8191b00e"
+  integrity sha512-6dXUTKhS7v2mcVsEwEljxaLQAuOP+FVbF1KPaXhHZqrz5Om4z2B5Fw0yonyiE1g+jGycYoQA1XEhOSU06sbXog==
   dependencies:
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/clutter10@^10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/clutter10/-/clutter10-10.0.1.tgz#331ffe8c78bafa28fd937b9afe7e5add6c087888"
-  integrity sha512-RID6cMWeIFP4ikkd3GLymEG/KbWnQYBz3DAte+HjWOxbP/yAKlfDWrz3CwVM0NO+pIbD7zeCgdFbcCaXC9u2Ww==
+"@girs/clutter-11@^11.0.0-3.0.0-beta.12":
+  version "11.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/clutter-11/-/clutter-11-11.0.0-3.0.0-beta.12.tgz#a91bb63bc8630c9a377226a9cc81e79811f616cb"
+  integrity sha512-GWimjJQjMqki1bcgr4PzNPO0sQCwrwT1pjrPvluR2ojd/7uiF3IoQi9cBHhSZaM/OhltWfupsqucU6mX9vXlYA==
   dependencies:
-    "@gi-types/atk1" "^2.36.0"
-    "@gi-types/cairo1" "^1.0.1"
-    "@gi-types/cogl10" "^10.0.1"
-    "@gi-types/gio2" "^2.72.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
-    "@gi-types/graphene1" "^1.0.1"
-    "@gi-types/json1" "^1.6.1"
-    "@gi-types/pango1" "^1.50.1"
+    "@girs/atk-1.0" "^2.45.1-3.0.0-beta.12"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/cogl-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/coglpango-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gl-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/graphene-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/json-1.0" "^1.7.1-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
+    "@girs/pangocairo-1.0" "^1.0.0-3.0.0-beta.12"
 
-"@gi-types/cogl10@^10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/cogl10/-/cogl10-10.0.1.tgz#a7a3da149ff83a58d237ab037e33ef28fccee7a0"
-  integrity sha512-n4Kf019kVog/X+YCjvIBXKgOv5zmJWaWHjpPViKs4ydH5X/LKqM23EpYGvyvDgFOFV4y/cv9i6/RMcb5rgCeHA==
+"@girs/cogl-11@^11.0.0-3.0.0-beta.12":
+  version "11.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/cogl-11/-/cogl-11-11.0.0-3.0.0-beta.12.tgz#ae78450028f705570e21dc941bb61b18af6b6855"
+  integrity sha512-dqwZK8NbL/KrMSG0Hq711KOBv2BeGfQ2xe0F7hYuMJVluB2Rg9XVQwzVieXYDB/zZdyU/9AOoaHdNkZ57l2sfw==
   dependencies:
-    "@gi-types/cairo1" "^1.0.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
-    "@gi-types/graphene1" "^1.0.1"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/gl-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/graphene-1.0" "^1.0.0-3.0.0-beta.12"
 
-"@gi-types/freetype22@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/freetype22/-/freetype22-2.0.1.tgz#706f61c7e425c4ada3765b0d796e3336bc3e5f6a"
-  integrity sha512-3p4XvTSn6o1UCGpla/1KhvMIwZkgIyBtGErbnXuAvGzULtlseQjX2IljY4fi2FKtFd9ngRtIIF71inRPUIj+1w==
+"@girs/coglpango-11@^11.0.0-3.0.0-beta.12":
+  version "11.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/coglpango-11/-/coglpango-11-11.0.0-3.0.0-beta.12.tgz#18882d9c91aeedb3372be2873e1629cbd70335df"
+  integrity sha512-OUThrM5AjkfQaIEyItiMTA5fZWpqh5q/rkHPRfaqrL63fRgdWDa1g0TRgicRnsSm4m6zoyc1wkLubUZ7j+NDJQ==
   dependencies:
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/cogl-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gl-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/graphene-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
+    "@girs/pangocairo-1.0" "^1.0.0-3.0.0-beta.12"
 
-"@gi-types/gdesktopenums3@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gdesktopenums3/-/gdesktopenums3-3.0.1.tgz#86bdacca733c99353137675a5f2da6961611c69a"
-  integrity sha512-qIzerTlLUhoMXS6TCV0vxNaYFBs1Oy4BY84srjv3NYsCG2auWGVNRVS2qn1r9ztRpWwAzEYO4KASitVi5zUoGA==
+"@girs/freetype2-2.0@^2.0.0-3.0.0-beta.12":
+  version "2.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/freetype2-2.0/-/freetype2-2.0-2.0.0-3.0.0-beta.12.tgz#8394b89c84236b2d366b1b3570fd70b3a396ab76"
+  integrity sha512-ar5az1nSnQINeSrQC3asJPTczdILp+NW01vtoaAcg1RCbjegYzbSBSz3wtqfvgIWv+msF60NL3jlgVPeTW1zrA==
   dependencies:
-    "@gi-types/gobject2" "^2.68.0"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/gdk3@^3.24.1":
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gdk3/-/gdk3-3.24.1.tgz#033f4d765878d28a566c825fb2ad384aa2f3b88e"
-  integrity sha512-0RLHMYjpuWSgnOgC83ThEPTQREnRR3wuxuYj6zfWSwmSJarLpSM0hCo8Xszew2k7RW/tybUqEfPdH4Bw7dnbJA==
+"@girs/gdesktopenums-3.0@^3.0.0-3.0.0-beta.12":
+  version "3.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gdesktopenums-3.0/-/gdesktopenums-3.0-3.0.0-3.0.0-beta.12.tgz#1cf918b670397716dffe0390f34613964fd01973"
+  integrity sha512-EZ4ApyVcIx6O7f7Y4C0XndEIweYDRWVAZlB26ttS4kDCUXrJHSyotGneQdXfKqiq/vkmhJY8k8FD8fBYp+nTcg==
   dependencies:
-    "@gi-types/cairo1" "^1.0.0"
-    "@gi-types/gdkpixbuf2" "^2.0.0"
-    "@gi-types/gio2" "^2.68.0"
-    "@gi-types/glib2" "^2.68.0"
-    "@gi-types/gobject2" "^2.68.0"
-    "@gi-types/pango1" "^1.0.0"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/gdkpixbuf2@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@gi-types/gdkpixbuf2/-/gdkpixbuf2-2.0.2.tgz#adbd80bfca359117c986b5abfc5818862517f6bc"
-  integrity sha512-vwopihyKOjJszDPvMj+T2XO6hMWYRmhW/uSrfCeCudMhzmJBrpIzmRZTYfeTgMMDU8cuWydCjacbiD7hSio0tw==
+"@girs/gdk-3.0@^3.24.36-3.0.0-beta.12":
+  version "3.24.36-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gdk-3.0/-/gdk-3.0-3.24.36-3.0.0-beta.12.tgz#3a8d0fc959e0db153ebeda38a83634055c3943f0"
+  integrity sha512-pe9FOrE4Jq93qeQhEk/uMRhCzPXHs6AwVU7RSX/ZZscjlTF4lGaOSIuvSplhQYMBHv0DeOsSThXNYdYcqnVQdA==
   dependencies:
-    "@gi-types/gio2" "^2.72.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gmodule2" "^2.0.1"
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gdkpixbuf-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gmodule-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
 
-"@gi-types/gio2@^2.68.0", "@gi-types/gio2@^2.72.1":
-  version "2.72.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gio2/-/gio2-2.72.1.tgz#15ee7770655c578f574f5fe343a3d7fdf3062798"
-  integrity sha512-V3ASxEbq4xBdw/rcROEbNrTqtFtWfwFOcOsXO+48JPIEqZRTJZcf9LX/ATxi9hxaZXogpmOBMsxuyNsd5ZQXyA==
+"@girs/gdkpixbuf-2.0@^2.0.0-3.0.0-beta.12":
+  version "2.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gdkpixbuf-2.0/-/gdkpixbuf-2.0-2.0.0-3.0.0-beta.12.tgz#60d3382970014f3dae78173e6dc57691263ad3bc"
+  integrity sha512-tgkQ1JLekz8WzMFbogUkro/a3HjeKkz3Jor1eHf4tImUrVb5q1o9s6yhHBgPbTp+uOmL/nKAyR6dl2kAiBlfBw==
   dependencies:
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gmodule-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/glib2@^2.68.0", "@gi-types/glib2@^2.72.1":
-  version "2.72.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/glib2/-/glib2-2.72.1.tgz#9cdfb4d05bf5f44a224e96d07ec1ebe3f12f32e7"
-  integrity sha512-Mfhs1UGV1a0GOLolqA1xC2oVV5cILbJjGh/M9Db3irqWNIWGM0LUFkoG2nRMBpJ0enhIYbqY9CCpGlMpAnyxOw==
+"@girs/gio-2.0@^2.75.1-3.0.0-beta.12":
+  version "2.75.1-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gio-2.0/-/gio-2.0-2.75.1-3.0.0-beta.12.tgz#d9c88a323f92cf3f06e521fe77a13030ed2a0c4a"
+  integrity sha512-Ykm5GFMXtzLUCtD2/m0HcSN5dk5/lE5+8TX3awkrUqhvb9ATAeAkiazDkD3EQGUc1BvByLEUJ2MVMk73Jqnlhg==
   dependencies:
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/gmodule2@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gmodule2/-/gmodule2-2.0.1.tgz#dd396c8563bd416c051053cb313077179723137c"
-  integrity sha512-thIYqYL3ALKBLR/zpjrlXro1m9UTv6eAYyuIdpPtmQvlaggBLoUakYl6mzNmqcb22OIlq/8jJrVx+cjFxdPd/A==
+"@girs/gl-1.0@^1.0.0-3.0.0-beta.12":
+  version "1.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gl-1.0/-/gl-1.0-1.0.0-3.0.0-beta.12.tgz#2023a00e562a7bc3c0bed34b282b805927392dd9"
+  integrity sha512-x1ERLfb7fbg9Xl8Kto4x09HmRuEYKlJpZcsEziQABm1fU/0KhKcNmMhxvM6GOO5W6XXzPX/hSdPsHo4Egteing==
   dependencies:
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/gobject2@^2.68.0", "@gi-types/gobject2@^2.72.1":
-  version "2.72.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gobject2/-/gobject2-2.72.1.tgz#be5e8f8b0d220fcd93d386598907b2efc5be8d3e"
-  integrity sha512-1UUD2zzwRo7vJLu0J62L1cgB39wjYNs1+6qS0UBhdLhzkOWK+CnVII9CNh21Z4YBs0Oa2d5REeGUiZO4d7a6Zw==
+"@girs/glib-2.0@^2.75.1-3.0.0-beta.12":
+  version "2.75.1-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/glib-2.0/-/glib-2.0-2.75.1-3.0.0-beta.12.tgz#b02b4ea76d5d4355a0ada08db30723a19f2b4eb9"
+  integrity sha512-CfA5PZavhpb3om2/hKrvNBMP8O8mkhzH1vSB6BPuU5SNNzEFP37SMBMh5le90P9xtoAXlIR8BdjNTxgtvwY4cA==
   dependencies:
-    "@gi-types/glib2" "^2.72.1"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/graphene1@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/graphene1/-/graphene1-1.0.1.tgz#0d85568b162d03a0b365b1d3206b3a03c72cbd42"
-  integrity sha512-O5cJG/eIi912eF1zcaXrSur25LgMJDU+VhFDnYuO4Latj32eypFJf5Sw3KOZvN2EoctIBxjutbXLOxYYKMBhHA==
+"@girs/gmodule-2.0@^2.0.0-3.0.0-beta.12":
+  version "2.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gmodule-2.0/-/gmodule-2.0-2.0.0-3.0.0-beta.12.tgz#24df1a0ffea07c34b072545e21df4b5f7464a632"
+  integrity sha512-bOPMXjzBXGJjlCC3IslEDjv6CrioyFbWLEUfX3T4YrErG1d5JXoseEOJ1u5ECQ1GpSG0DCQW0lzF1xv/aqSSpw==
   dependencies:
-    "@gi-types/gobject2" "^2.68.0"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/gtk3@^3.24.1":
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/gtk3/-/gtk3-3.24.1.tgz#dff1ca2220fa875c84c75c6e69691809d8716d91"
-  integrity sha512-KW+ilICTJxl2OrtPbKRMEzA4+QTziZCD33O4ipIqWUjy7YJHaGgBUCNtzzBL9VfunGBBVfClIc4cVcLhV/pbBA==
+"@girs/gobject-2.0@^2.75.1-3.0.0-beta.12":
+  version "2.75.1-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gobject-2.0/-/gobject-2.0-2.75.1-3.0.0-beta.12.tgz#b82b01b4649fd0c9e038b7e171b9314a1d35ede7"
+  integrity sha512-q5lCpcgGOSzs/2/Z1DDnQ5JSwq8WY25A+TwBVtb6ks3B+tj+oqCQ9fNXZ9iVRf8tEJKCU3NwLIjKtTGoH1JpDQ==
   dependencies:
-    "@gi-types/atk1" "^2.36.0"
-    "@gi-types/cairo1" "^1.0.0"
-    "@gi-types/gdk3" "^3.24.1"
-    "@gi-types/gdkpixbuf2" "^2.0.0"
-    "@gi-types/gio2" "^2.68.0"
-    "@gi-types/glib2" "^2.68.0"
-    "@gi-types/gobject2" "^2.68.0"
-    "@gi-types/pango1" "^1.0.0"
-    "@gi-types/xlib2" "^2.0.0"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/harfbuzz2@^4.4.2":
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/@gi-types/harfbuzz2/-/harfbuzz2-4.4.2.tgz#b651cc6777caea6044b4da1b26b9aeff087717c4"
-  integrity sha512-jsntc6SthoOdw4VSetTOKFI0BM1ccDISP1JQhnL5NETrVuYGnNAwRZ2oDIujuG0M70bHDv/MWKiZnmJxXNPrKw==
+"@girs/graphene-1.0@^1.0.0-3.0.0-beta.12":
+  version "1.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/graphene-1.0/-/graphene-1.0-1.0.0-3.0.0-beta.12.tgz#323d823a95cf7087cd05034d60822873d62a982b"
+  integrity sha512-r1vb54otASwDR6fp6ZWdO95ASinIH97O+oDFdgfEyeciFio6r8thB9cLpuS3+l065MM4WF64raxveEtDmKxVTQ==
   dependencies:
-    "@gi-types/freetype22" "^2.0.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/json1@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/json1/-/json1-1.6.1.tgz#e77b32c75304dfcdd90e8b533c78483e01bbf818"
-  integrity sha512-6DpNf3PTYYKbL96U76R/mWZuAXv32cI0ZDalyKAciKeh9pczHjlnNdjq8h6lDKJc5vKxviHW9TsOdtB3NaXuqQ==
+"@girs/gtk-3.0@^3.24.36-3.0.0-beta.12":
+  version "3.24.36-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/gtk-3.0/-/gtk-3.0-3.24.36-3.0.0-beta.12.tgz#ee582acf9b9439b5792df5693a157a2ad392c4db"
+  integrity sha512-9RGCcVSzHzRRihvXTuL8nyHqsSCuIamBIhXEfuz8bWyoOteHwpfeosGdIsBx59h1Nl+w28QUCo4NIPyLHFN56g==
   dependencies:
-    "@gi-types/gio2" "^2.72.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/atk-1.0" "^2.45.1-3.0.0-beta.12"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gdk-3.0" "^3.24.36-3.0.0-beta.12"
+    "@girs/gdkpixbuf-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gmodule-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
+    "@girs/xlib-2.0" "^2.0.0-3.0.0-beta.12"
 
-"@gi-types/meta10@^10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/meta10/-/meta10-10.0.1.tgz#b705edb8960150a2b1050ae00ea98ef0cf483016"
-  integrity sha512-VmYij7FhqC5CtYrWcheErwiVwmiPOJ55Ct71Q7daZPAQi358hUYsya0WYBPAXGciIMdd67UjorZX6DYfAAksRw==
+"@girs/harfbuzz-0.0@^6.0.0-3.0.0-beta.12":
+  version "6.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/harfbuzz-0.0/-/harfbuzz-0.0-6.0.0-3.0.0-beta.12.tgz#843fff7ab9acfbbf4c7959e30e71ad5f7b7ddcad"
+  integrity sha512-r9+tTVk+FShb2VdwBemZcJuzBaMLlgqOJpfx2UAkrH+MdwOGRAwhR2/lmXTKrBFJBlvHg239KcSVxhQUDuoysQ==
   dependencies:
-    "@gi-types/atk1" "^2.36.0"
-    "@gi-types/cairo1" "^1.0.1"
-    "@gi-types/clutter10" "^10.0.1"
-    "@gi-types/cogl10" "^10.0.1"
-    "@gi-types/gdesktopenums3" "^3.0.1"
-    "@gi-types/gio2" "^2.72.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
-    "@gi-types/graphene1" "^1.0.1"
-    "@gi-types/gtk3" "^3.24.1"
-    "@gi-types/json1" "^1.6.1"
-    "@gi-types/pango1" "^1.50.1"
-    "@gi-types/xfixes4" "^4.0.1"
-    "@gi-types/xlib2" "^2.0.1"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/pango1@^1.0.0", "@gi-types/pango1@^1.50.1":
-  version "1.50.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/pango1/-/pango1-1.50.1.tgz#d5632c8d3f5ba50c1a3bc5ca1da0a90967e84b81"
-  integrity sha512-SdpoZ5Fcz7Zo8Tal5Ap4Z/4SMqpo/PspORIadxmNZ3kafFOwK7TPvdWiUIBgua+i3uWiLnreKCGD/6rLJLbw3g==
+"@girs/json-1.0@^1.7.1-3.0.0-beta.12":
+  version "1.7.1-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/json-1.0/-/json-1.0-1.7.1-3.0.0-beta.12.tgz#0f8a7414530df064e2d8bc98ec81625568309247"
+  integrity sha512-DxnjsGnbVfEcZ/ELeHDs3406YhAkk9Enzrh0NntIm/7o33z+xLQAJROIeQhzhj4Q1g1PNHtcLwIAd8SfIMjB9g==
   dependencies:
-    "@gi-types/gio2" "^2.72.1"
-    "@gi-types/glib2" "^2.72.1"
-    "@gi-types/gobject2" "^2.72.1"
-    "@gi-types/harfbuzz2" "^4.4.2"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
-"@gi-types/xfixes4@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/xfixes4/-/xfixes4-4.0.1.tgz#f998125ac21bf956baec907c74445bdff40dc21f"
-  integrity sha512-2B9XqWAE7JpdZwuUDZ+YrwTu45nuKU05RH8qXv9ld3ypmdVRVx5J8qb+VVaI3z6H6EOPfz0lYsxRmvAT8GLZsA==
+"@girs/meta-11@^11.0.0-3.0.0-beta.12":
+  version "11.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/meta-11/-/meta-11-11.0.0-3.0.0-beta.12.tgz#0b03fdf13f4a8cdd8780bff46c25de6123726a2f"
+  integrity sha512-H5mUryrWGuXg6mCPq2DXTKEStTPCsDFirpsxH9WxNvqSG3YjRv9sG/sJrxMbbsM8jeY5q/POveQLbH5zHCBhQw==
   dependencies:
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/atk-1.0" "^2.45.1-3.0.0-beta.12"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/clutter-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/cogl-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/coglpango-11" "^11.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gdesktopenums-3.0" "^3.0.0-3.0.0-beta.12"
+    "@girs/gdk-3.0" "^3.24.36-3.0.0-beta.12"
+    "@girs/gdkpixbuf-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gl-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gmodule-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/graphene-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/gtk-3.0" "^3.24.36-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/json-1.0" "^1.7.1-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
+    "@girs/pangocairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/xfixes-4.0" "^4.0.0-3.0.0-beta.12"
+    "@girs/xlib-2.0" "^2.0.0-3.0.0-beta.12"
 
-"@gi-types/xlib2@^2.0.0", "@gi-types/xlib2@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@gi-types/xlib2/-/xlib2-2.0.1.tgz#b4a3e7a5afe09a0a54f88cee61441ea826c4a219"
-  integrity sha512-AouZupNa8roCOwKbyGuVuOmt7n8YYBprH60q5Ggu9vGVY+AhpTjEbeJBiLkHW74T8587Z3AilRo7cBWnXPM56A==
+"@girs/pango-1.0@^1.50.13-3.0.0-beta.12":
+  version "1.50.13-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/pango-1.0/-/pango-1.0-1.50.13-3.0.0-beta.12.tgz#42e18d0f7562c5739793904f8a2391529557adec"
+  integrity sha512-rViwCeqbzWy7LBBiv4BVuUI0DIawRAfwpbGWfHBfteBhEhT33P5PG8tb4IHfV/q41mWUchVLtuut8bUf5AXWrQ==
   dependencies:
-    "@gi-types/gobject2" "^2.72.1"
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+
+"@girs/pangocairo-1.0@^1.0.0-3.0.0-beta.12":
+  version "1.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/pangocairo-1.0/-/pangocairo-1.0-1.0.0-3.0.0-beta.12.tgz#207a5860d7a318c09aeaf2600faf79e3bb2d4e39"
+  integrity sha512-j1m0oXKLzy+vPLj/mqbPkodA2UIfCBKD2ZBG0+sYtWWTQYgXLXYoOCN8nJ05Bd5V4wOza42PCQOOdfGdV9gfJg==
+  dependencies:
+    "@girs/cairo-1.0" "^1.0.0-3.0.0-beta.12"
+    "@girs/freetype2-2.0" "^2.0.0-3.0.0-beta.12"
+    "@girs/gio-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/glib-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+    "@girs/harfbuzz-0.0" "^6.0.0-3.0.0-beta.12"
+    "@girs/pango-1.0" "^1.50.13-3.0.0-beta.12"
+
+"@girs/xfixes-4.0@^4.0.0-3.0.0-beta.12":
+  version "4.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/xfixes-4.0/-/xfixes-4.0-4.0.0-3.0.0-beta.12.tgz#45dd4485327b67da739f91021a59a381414a7828"
+  integrity sha512-UIbEeqgZOcs0OXy3+/9Hs6Jj7Ah6uGYgcw4oo0q+5QFidjZw6I1zhIH2jFYR/qkLn7zHcNMmj37Gy0WTh8lZkA==
+  dependencies:
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
+
+"@girs/xlib-2.0@^2.0.0-3.0.0-beta.12":
+  version "2.0.0-3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@girs/xlib-2.0/-/xlib-2.0-2.0.0-3.0.0-beta.12.tgz#fcd514bc2574333e4a249e4062185e19eea3d8b0"
+  integrity sha512-tpkSNWtuQCKtR9Vi0xM9V85LykzTiylgAsfSfFWHTDwhHPVxp2xw4PDPrMcF4kbj382wcgR2pYpUiUD6CSa5Bg==
+  dependencies:
+    "@girs/gobject-2.0" "^2.75.1-3.0.0-beta.12"
 
 typescript@^5.0.4:
   version "5.0.4"
