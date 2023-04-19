@@ -6,6 +6,7 @@ class Extension {
 
     constructor() {
         log("init poc-ts-gnome-extension");
+        log(3 ** 5);
     }
 
     enable() {

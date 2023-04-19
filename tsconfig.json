@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
         "strict": true,
-        "target": "ES2015",
+        "module": "ESNext",
+        // Would need to be ES2015 for tsc to target GJS, but we're separately using esbuild to generate the JS
+        "target": "ESNext",
         "outDir": "build",
-        "lib": [
-            "es2015"
-        ],
         "moduleResolution": "node",
+        "esModuleInterop": true,
+        "isolatedModules": true,
     },
     "include": [
         "src/*"
