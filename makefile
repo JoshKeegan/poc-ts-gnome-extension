@@ -11,7 +11,6 @@ build-tools:
 build:
 	yarn build
 	./gjs.sh
-	cp metadata.json build/
 
 .PHONY: install
 install: build

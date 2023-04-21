@@ -33,6 +33,10 @@ func run(watchMode bool) error {
 		EntryPoints: []string{
 			"src/extension.ts",
 			"src/stylesheet.css",
+			"src/metadata.json",
+		},
+		Loader: map[string]api.Loader{
+			".json": api.LoaderCopy,
 		},
 		Outdir: "build",
 		Write:  true,
