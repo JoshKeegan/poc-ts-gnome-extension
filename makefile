@@ -10,7 +10,6 @@ build-tools:
 
 build:
 	yarn build
-	./gjs.sh
 
 .PHONY: install
 install: build

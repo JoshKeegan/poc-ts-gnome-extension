@@ -57,6 +57,7 @@ func run(watchMode bool) error {
 		External: []string{
 			"@girs/*",
 		},
+		Plugins: []api.Plugin{gjsPlugin},
 	}
 
 	if watchMode {
