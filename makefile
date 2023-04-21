@@ -13,6 +13,4 @@ build:
 
 .PHONY: install
 install: build
-	rm -r ~/.local/share/gnome-shell/extensions/$(EXTENSION)/ | true
-	mkdir -p ~/.local/share/gnome-shell/extensions/$(EXTENSION)/
-	cp -R build/* ~/.local/share/gnome-shell/extensions/$(EXTENSION)/
+	ln -s "$(PWD)/build" ~/.local/share/gnome-shell/extensions/$(EXTENSION)

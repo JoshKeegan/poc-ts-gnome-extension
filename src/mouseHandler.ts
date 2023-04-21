@@ -8,7 +8,7 @@ export class MouseHandler {
     enable() {
         log("enable mouse handler");
         this._displaySignals.push(global.display.connect("grab-op-begin", (_, window, __) => {
-            log(`poc: "${window.title}" is moving`);
+            log(`poc: "${window.title}" (${window.wm_class}) is moving`);
         }));
     }
 
