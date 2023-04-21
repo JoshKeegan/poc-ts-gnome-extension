@@ -4,6 +4,10 @@ EXTENSION := poc-ts@joshkeegan.co.uk
 clean:
 	rm -rf build
 
+.PHONY: build-tools
+build-tools:
+	(cd tools/esbuild && go build -o ../bin/)
+
 build:
 	yarn build
 	./gjs.sh
